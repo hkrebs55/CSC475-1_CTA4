@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:hint="Task Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <Button
+        android:id="@+id/pickStartDateButton"
+        android:layout_width="179dp"
+        android:layout_height="48dp"
+        android:text="Pick Start Date"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="12dp" />
+
+    <Button
+        android:id="@+id/pickEndTimeButton"
+        android:layout_width="130dp"
+        android:layout_height="49dp"
+        android:text="End Time"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:hint="Description"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <Button
+        android:id="@+id/notificationButton"
+        android:layout_width="354dp"
+        android:layout_height="51dp"
+        android:text="Notification Before Task"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <Button
+        android:id="@+id/pickStartTimeButton"
+        android:layout_width="130dp"
+        android:layout_height="47dp"
+        android:text="Start Time"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <Button
+        android:id="@+id/recurringButton"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="Recurring"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <Button
+        android:id="@+id/pickEndDateButton"
+        android:layout_width="180dp"
+        android:layout_height="46dp"
+        android:text="Pick End Date"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
